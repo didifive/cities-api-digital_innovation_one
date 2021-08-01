@@ -7,8 +7,9 @@ Projeto desenvolvido com instruções de [André Luis Gomes](https://github.com/
 Link da base utilizada neste projeto: [andrelugomes/digital-innovation-one](https://github.com/andrelugomes/digital-innovation-one)
 
 Abaixo seguem modificações feitas em relação ao projeto base:
-* O projeto foi feito do zero, como o nome propõe, apenas copiando e colando, porém a estrutura dos arquivos e nomes de classes foram alterados;
-* Exceptions criadas para tratar quando não localizar país, estado ou cidade por id ou nome;
+* O projeto foi feito do zero, como o nome propõe, copiando, colando e digitando, aproveitando para leve mudança na estrutura dos arquivos e nomes de classes;
+* Criada consulta de cidade em que lista a(s) cidade(s) iniciada(s) pelo nome passado (case insensitive);
+* Exceptions criadas para tratar quando não localizar país, estado ou cidade e por id ou nome;
 * Para os testes funcionarem foi necessário alteração no arquivo "data.sql" para fazer com o que o campo "ddd" da tabela estado tivesse o conteúdo em JSON e a adição do "spring.datasource.sqlScriptEncoding=UTF-8" arquivo application.properties do src/test para funcionalidade correta dos dados com acentuação;
 
 Versões utilizadas no desenvolvimento:
@@ -22,7 +23,7 @@ Este projeto, principalmente os pontos destacados abaixo, ajudou a aprimorar os 
 * Utilização do PostgreSQL para produção e H2 para teste.
 
 O projeto foi publicado no cloud da [Heroku](https://www.heroku.com/), abaixo o link:
-* [Cities API Didi]()
+* [Cities API Didi](https://cities-api-didi.herokuapp.com)
 * Para testar manualmente os métodos da Cities API, foi incluído o arquivo "Game API.postman_collection.json" na pasta "postman" com coleção que pode ser importada pelo aplicativo [Postman](https://www.postman.com/).
 
 Para executar o projeto no terminal, digite o seguinte comando:
