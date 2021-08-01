@@ -14,12 +14,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/countries",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/countries",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -35,12 +36,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/countries?page=0&size=25&sort=id,asc",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/countries?page=0&size=25&sort=id,asc",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -70,12 +72,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/countries/1",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/countries/1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -97,12 +100,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/states",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/states",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -118,12 +122,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/states?page=0&size=30&sort=name,asc",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/states?page=0&size=30&sort=name,asc",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -153,12 +158,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/states/1",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/states/1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -180,12 +186,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/cities",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/cities",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -201,14 +208,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/cities?page=0&size=30&sort=uf,asc",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/v1/cities?page=0&size=30&sort=uf,asc",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
-								"api",
 								"v1",
 								"cities"
 							],
@@ -236,12 +243,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/cities/id/1",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/cities/id/1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -259,12 +267,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/cities/name/sales",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/cities/name/sales",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -287,12 +296,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/distances/by-points?from=26&to=5211",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/distances/by-points?from=26&to=5211",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -319,12 +329,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/distances/by-math?from=4929&to=5254&unit=METERS",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/distances/by-math?from=4929&to=5254&unit=METERS",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -355,12 +366,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/distances/by-cube?from=26&to=5211",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/distances/by-cube?from=26&to=5211",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -387,12 +399,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/nearby?city_id=5211&radius=20000",
-							"protocol": "http",
+							"raw": "https://cities-api-didi.herokuapp.com/api/v1/nearby?city_id=5211&radius=20000",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"cities-api-didi",
+								"herokuapp",
+								"com"
 							],
-							"port": "8080",
 							"path": [
 								"api",
 								"v1",
@@ -411,6 +424,420 @@
 						}
 					},
 					"response": []
+				}
+			]
+		},
+		{
+			"name": "Localhost",
+			"item": [
+				{
+					"name": "Countries",
+					"item": [
+						{
+							"name": "Get Countries",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/countries",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"countries"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Countries with Params",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/countries?page=0&size=25&sort=id,asc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"countries"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "25"
+										},
+										{
+											"key": "sort",
+											"value": "id,asc"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Country by Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/countries/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"countries",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "States",
+					"item": [
+						{
+							"name": "Get States",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/states",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"states"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get States with Params",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/states?page=0&size=30&sort=name,asc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"states"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "30"
+										},
+										{
+											"key": "sort",
+											"value": "name,asc"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get State by Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/states/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"states",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Cities",
+					"item": [
+						{
+							"name": "Get Cities",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cities",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cities"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Cities with Params Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cities?page=0&size=30&sort=uf,asc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cities"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "30"
+										},
+										{
+											"key": "sort",
+											"value": "uf,asc"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get City by Id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cities/id/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cities",
+										"id",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get City by Name",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/cities/name/sales",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"cities",
+										"name",
+										"sales"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Distance",
+					"item": [
+						{
+							"name": "Get Distance by Points",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/distances/by-points?from=26&to=5211",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"distances",
+										"by-points"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "26"
+										},
+										{
+											"key": "to",
+											"value": "5211"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Distance by Math",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/distances/by-math?from=4929&to=5254&unit=METERS",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"distances",
+										"by-math"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "4929"
+										},
+										{
+											"key": "to",
+											"value": "5254"
+										},
+										{
+											"key": "unit",
+											"value": "METERS"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Distance by Cube",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/distances/by-cube?from=26&to=5211",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"distances",
+										"by-cube"
+									],
+									"query": [
+										{
+											"key": "from",
+											"value": "26"
+										},
+										{
+											"key": "to",
+											"value": "5211"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Nearby Cities",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/nearby?city_id=5211&radius=20000",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"nearby"
+									],
+									"query": [
+										{
+											"key": "city_id",
+											"value": "5211"
+										},
+										{
+											"key": "radius",
+											"value": "20000"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
 				}
 			]
 		}
